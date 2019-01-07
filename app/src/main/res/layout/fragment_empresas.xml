@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_rv"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorPrimary" />-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvLista_buses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        tools:itemCount="10"
+        tools:layoutManager="android.support.v7.widget.GridLayoutManager"
+        tools:listitem="@layout/item_bus"
+        tools:spanCount="2"></android.support.v7.widget.RecyclerView>
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/rv_bus_detalle"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginTop="130dp"-->
+        <!--tools:listitem="@layout/item_bus_detalle"-->
+        <!--tools:itemCount="1"-->
+        <!--android:visibility="gone"-->
+        <!--&gt;-->
+
+    <!--</android.support.v7.widget.RecyclerView>-->
+
+
+</android.support.constraint.ConstraintLayout>
